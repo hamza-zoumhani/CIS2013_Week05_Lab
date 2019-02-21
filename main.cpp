@@ -4,19 +4,22 @@ using namespace std;
 
 int main(){
 	
-	// list of student in our class:
-	int student[3];
+	int len=3;
+	
+	// List of student in our class:
+	int student[len];
 	
 	
-	for(int i=0; i<3; i++){
-		cout << "Enter Student " << i+1 << "'s grade: ",
+	for(int i=0; i<len; i++){
+		cout << "Enter Student " << i+1 << "'s grade: ";
 		cin >> student[i];
 	}
 	
+	for(int j=0; j<len; j++){
+		cout << "Student " << j+1 << "'s grade is " << student[j] << endl;
+		
+	}
 	
-	cout << "Bob grade is: " << student[0] << endl;
-	cout << "Tom grade is: " << student[1]<< endl;
-	cout << "Jill grade is: " << student[2]<< endl;
 	
 	return 0;
 }
