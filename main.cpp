@@ -1,22 +1,24 @@
 #include <iostream>
-
+#include <string>
 using namespace std;
 
 int main(){
 	
-	const int LEN=3;
+	const int LEN=2;
 	
-	// List of student in our class:
 	int student[LEN];
+	string name[LEN];
 	
 	
 	for(int i=0; i<LEN; i++){
-		cout << "Enter Student " << i+1 << "'s grade: ";
+		cout << "Enter Student " << i+1 << "'s name: ";
+		cin >> name[i];
+		cout << "Enter " << name[i] << "'s grade: ";
 		cin >> student[i];
 	}
 	
 	for(int j=0; j<LEN; j++){
-		cout << "Student " << j+1 << "'s grade is " << student[j] << endl;
+	cout << name[j] << "'s grade is " << student[j] << endl;
 		
 	}
 	
