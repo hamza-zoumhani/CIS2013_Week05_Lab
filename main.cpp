@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 	
-	int len=3;
+	const int len=3;
 	
 	// List of student in our class:
 	int student[len];
