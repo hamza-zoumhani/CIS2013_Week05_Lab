@@ -4,6 +4,8 @@ using namespace std;
 
 int main(){
 	
+	int students(10);
+	
 	int bob =90;
 	int tom= 15;
 	int jill= 99;
