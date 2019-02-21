@@ -4,10 +4,14 @@ using namespace std;
 
 int main(){
 	
-	const int LEN=2;
+	const int MAX=30;
+	int LEN;
 	
-	int student[LEN];
-	string name[LEN];
+	cout << "How many students are in this class: " ;
+	cin >> LEN;
+	
+	int student[MAX];
+	string name[MAX];
 	
 	
 	for(int i=0; i<LEN; i++){
